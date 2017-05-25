@@ -43,11 +43,6 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
-      <assemblyIdentity name="Microsoft.mshtml" version="7.0.3300.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" />
-    </dependentAssembly>
-  </dependency>
-  <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="HtmlAgilityPack.dll" size="132608">
       <assemblyIdentity name="HtmlAgilityPack" version="1.4.9.5" publicKeyToken="BD319B19EAF3B43A" language="neutral" processorArchitecture="msil" />
       <hash>
@@ -68,6 +63,18 @@
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
         <dsig:DigestValue>sMuANLVD/qDi+h6UlWBHrb4CHdSrUiq1s83Ekk3rO14=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Microsoft.mshtml.dll" size="8013664">
+      <assemblyIdentity name="Microsoft.mshtml" version="7.0.3300.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>rc+FtEeMypVj8msF8NK5dc2V5k143GCcWaIoacOlIdQ=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -132,14 +139,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="WebCrawler.exe" size="232960">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="WebCrawler.exe" size="234456">
       <assemblyIdentity name="WebCrawler" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>EsfQT/y2n3C/IrkimmIgQ2nz4628rvW7pKjqoGn1ZB8=</dsig:DigestValue>
+        <dsig:DigestValue>t+PhwexAa7bN9yn69Dt1ucH+gCKJbvHsQI9oG38jc3I=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -152,13 +159,13 @@
       <dsig:DigestValue>H9Va7ZNwDggBMHPdMsRDliHGiBpVu65vdyLcPxHDHnA=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="WebCrawler.exe.config" size="935">
+  <file name="WebCrawler.exe.config" size="324">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>7f3t/c/xt/hKYys9lg+DSCGBCTinRMhYewowGoWgYOc=</dsig:DigestValue>
+      <dsig:DigestValue>aRwAMrzrQuZLzrDALifr/scbt0VPL2qHuKp+XYiVqh8=</dsig:DigestValue>
     </hash>
   </file>
 </asmv1:assembly>
